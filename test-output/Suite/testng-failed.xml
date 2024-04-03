@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="SeleniumTests.Selenium_ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SeleniumTests.Selenium_Parameters">
+        <methods>
+          <include name="parametersTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SeleniumTests.Selenium_Parameters -->
+      <class name="SeleniumTests.Selenium_Groups">
+        <methods>
+          <include name="testSmoke"/>
+          <include name="testSanity"/>
+        </methods>
+      </class> <!-- SeleniumTests.Selenium_Groups -->
+      <class name="SeleniumTests.EventsUsingActionClass">
+        <methods>
+          <include name="doubleClick"/>
+          <include name="setUp"/>
+          <include name="clickAndHold"/>
+          <include name="tearDown"/>
+          <include name="dragAndDrop"/>
+        </methods>
+      </class> <!-- SeleniumTests.EventsUsingActionClass -->
+      <class name="SeleniumTests.Selenium_Properties">
+        <methods>
+          <include name="propertiesTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SeleniumTests.Selenium_Properties -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
