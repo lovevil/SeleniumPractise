@@ -5,8 +5,8 @@
 	<listener class-name="SeleniumTests.Selenium_Listeners" />
 	</listeners>
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="SeleniumTests.Selenium_Groups"/>
-    </classes>
+    <packages>
+    <package name="SeleniumTests"></package>
+    </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

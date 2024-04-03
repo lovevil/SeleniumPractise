@@ -165,7 +165,7 @@
         <version>2.14.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>listeners.xml</suiteXmlFile>
+            <suiteXmlFile>groups.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
