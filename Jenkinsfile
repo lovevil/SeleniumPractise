@@ -2,16 +2,15 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Checkout Code') {
             steps {
-                // Checkout code from Git repository
-                git branch: 'main', url: 'https://github.com/lovevil/SeleniumPractise.git'
+                git branch: 'main', // Replace with your desired branch
+                    url: 'https://github.com/your-username/your-repository.git'
             }
         }
-        stage('Build') {
+        stage('Build with Maven') {
             steps {
-                // Run Maven build for pom.xml
-                sh 'mvn clean install test'
+                sh 'mvn clean install test' // Replace with your desired Maven goals
             }
         }
     }
