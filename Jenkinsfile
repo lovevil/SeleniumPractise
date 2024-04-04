@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main', // Replace with your desired branch
-                    url: 'https://github.com/your-username/your-repository.git'
+                    url: 'https://github.com/lovevil/SeleniumPractise.git'
             }
         }
         stage('Build with Maven') {
