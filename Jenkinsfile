@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git branch: 'main', credentialsId: 'my_git_credentials', url: 'https://github.com/lovevil/SeleniumPractise.git'
+                git branch: 'main', url: 'https://github.com/lovevil/SeleniumPractise.git'
             }
         }
         stage('Build') {
