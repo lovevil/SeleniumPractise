@@ -7,7 +7,7 @@ import org.testng.asserts.SoftAssert;
 public class AssertionTest {
 
 	String actual = "shubham";
-	String expected = "shu7bham";
+	String expected = "shubham";
 	
 	SoftAssert sa = new SoftAssert();
 

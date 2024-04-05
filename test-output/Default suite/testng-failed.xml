@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumTests.AssertionTest">
+      <class name="SeleniumTests.EventsUsingActionClass">
         <methods>
-          <include name="testone"/>
+          <include name="doubleClick"/>
+          <include name="setUp"/>
+          <include name="clickAndHold"/>
+          <include name="tearDown"/>
+          <include name="dragAndDrop"/>
         </methods>
-      </class> <!-- SeleniumTests.AssertionTest -->
+      </class> <!-- SeleniumTests.EventsUsingActionClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

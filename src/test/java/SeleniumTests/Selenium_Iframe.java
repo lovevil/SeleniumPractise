@@ -53,7 +53,7 @@ public class Selenium_Iframe {
 
 		driver.switchTo().frame(frame);
 		
-		WebElement frameElement = driver.findElement(By.xpath("//span[text()=\"Trainings\"]"));
+		WebElement frameElement = driver.findElement(By.xpath("//span[text()='Trainings']"));
 		
 		frameElement.click();
 		

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -23,7 +24,6 @@ public class EventsUsingActionClass {
 		
 		driver.manage().window().maximize();
 		
-		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 	}
 	
 	@Test
@@ -95,7 +95,7 @@ public class EventsUsingActionClass {
 		Thread.sleep(1000);
 	}
 	
-	@AfterMethod
+	@AfterTest
 	public void tearDown() {
 		driver.quit();
 	}
