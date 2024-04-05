@@ -67,7 +67,7 @@ public class Selenium_Iframe {
 //		heading.click();
 		
 		Assert.assertTrue(heading.isDisplayed());
-		
+			
 		Thread.sleep(1000);
 
 	}

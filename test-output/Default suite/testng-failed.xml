@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumTests.Selenium_ShadowDom">
+      <class name="SeleniumTests.AssertionTest">
         <methods>
-          <include name="testShadowDom"/>
+          <include name="testone"/>
         </methods>
-      </class> <!-- SeleniumTests.Selenium_ShadowDom -->
+      </class> <!-- SeleniumTests.AssertionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
