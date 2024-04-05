@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="SeleniumTests.Selenium_ExtentReport" />
 	</listeners>
-	<test thread-count="5" name="Test" parallel="methods">
+	<test thread-count="5" name="Test">
 		<parameter name="username" value="student"></parameter>
 		<parameter name="password" value="Password123"></parameter>
 
