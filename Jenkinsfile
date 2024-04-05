@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Build with Maven') {
             steps {
-             'mvn clean install test' // Replace with your desired Maven goals
+             sh 'mvn clean install test' // Replace with your desired Maven goals
             }
         }
     }
